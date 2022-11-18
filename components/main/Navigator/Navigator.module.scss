@@ -1,0 +1,20 @@
+@use "../../../styles/flexbox";
+
+.Navigator {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  border-top: 1px black solid;
+
+  .item {
+    @include flexbox.centered;
+    flex: 1 1 0;
+    width: 0;
+    &.current {
+      background: #ffaabb;
+    }
+  }
+}

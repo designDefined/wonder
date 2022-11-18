@@ -1,0 +1,28 @@
+@use "./styles/responsive";
+
+.Main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  .container {
+    position: relative;
+    width: 300%;
+    height: 100%;
+    display: flex;
+    transition: 0.5s;
+
+    &.home {
+      transform: translateX(0);
+    }
+    &.social {
+      transform: translateX(calc(-100% / 3));
+    }
+    &.myPage {
+      transform: translateX(calc(-200% / 3));
+    }
+  }
+
+  @include responsive.media(">=phone", "<desktop") {
+  }
+}
