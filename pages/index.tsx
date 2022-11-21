@@ -19,7 +19,6 @@ const Main = () => {
         <Social />
         <MyPage />
       </div>
-
       <Navigator currentTab={currentTab} setTab={setCurrentTab} />
     </article>
   );

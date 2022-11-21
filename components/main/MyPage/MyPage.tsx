@@ -1,5 +1,10 @@
+import styles from "./MyPage.module.scss";
+import classNames from "classnames/bind";
+
+const cx = classNames.bind(styles);
+
 const MyPage = () => {
-  return <div style={{ width: "100%", background: "green" }}>MyPage</div>;
+  return <div className={cx("MyPage")}>MyPage</div>;
 };
 
 export default MyPage;

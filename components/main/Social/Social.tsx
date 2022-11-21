@@ -1,5 +1,10 @@
+import styles from "./Social.module.scss";
+import classNames from "classnames/bind";
+
+const cx = classNames.bind(styles);
+
 const Social = () => {
-  return <div style={{ width: "100%", background: "blue" }}>Social</div>;
+  return <div className={cx("Social")}>Social</div>;
 };
 
 export default Social;

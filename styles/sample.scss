@@ -1,0 +1,14 @@
+@mixin itemSmall {
+  width: 160px;
+  height: 220px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 16px;
+}
+@mixin itemBig {
+  width: 240px;
+  height: 360px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 16px;
+}

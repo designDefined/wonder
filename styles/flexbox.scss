@@ -4,3 +4,13 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin overflowContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+@mixin overflowItem {
+  flex: 0 0 auto;
+}
