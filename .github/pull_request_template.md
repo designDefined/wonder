@@ -1,13 +1,13 @@
 ## Summary
 
-| Issue No.       | Purpose      | main goal |
-|-----------------|--------------|-------------|
-|[이슈 번호](링크) |             |             |
+| Issue No.       | Purpose      | Main Goal | Assigned To |
+|-----------------|--------------|-----------|-------------|
+|[이슈 번호](링크) |             |           | DesignDefined |
 
 ## Describe your changes
 
 ## Things to Review
 
 ## Precautions Before Merging
-- Pull Request는 반드시 아래의 형식대로 커밋 메시지를 작성하여 Squash Merge하시기 바랍니다
+- `Pull Request`는 아래의 형식대로 커밋 메시지를 작성하여 `Squash Merge`하시기 바랍니다
   - __branch name__ (double space) __commit 1__ (single space) __commit 2__...
