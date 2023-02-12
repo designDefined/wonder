@@ -1,8 +1,12 @@
+## Status
+on work / need review / done
+
 ## Summary
 
-| Issue No.       | Purpose      | Main Goal | Assigned To |
+| Issue No.       | Purpose      | Main Goal | Assigned To | 
 |-----------------|--------------|-----------|-------------|
 |[이슈 번호](링크) |             |           | DesignDefined |
+
 
 ## Describe your changes
 
