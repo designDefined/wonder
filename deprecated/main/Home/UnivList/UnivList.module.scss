@@ -1,0 +1,12 @@
+@use "../../../../styles/flexbox";
+.UnivList {
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 15px;
+  .schoolName {
+    display: inline;
+  }
+  .handle {
+    @include flexbox.centered;
+  }
+}

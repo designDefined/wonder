@@ -1,0 +1,17 @@
+@use "../../styles/material";
+.Post {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  .toHome {
+    @include material.shadow(1);
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: 0;
+    font-size: 18px;
+    font-family: inherit;
+    border: 0;
+    padding: 5px;
+  }
+}
