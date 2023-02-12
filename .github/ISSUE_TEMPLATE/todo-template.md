@@ -8,9 +8,13 @@ assignees: designDefined
 ---
 
 ## Summary
-- purpose: (feat/fix/refactor)
-- main goal:
+- __purpose:__ (feat/fix/refactor)
+- __main goal:__
+- __deadline:__ YY-MM-DD(-HH)
+- __asigned to:__ DesignDefined
 
 ## Details
+
+## Things To Note
 
 ## Reference
