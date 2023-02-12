@@ -1,16 +1,16 @@
 ---
 name: Todo Template
 about: Issue for to-dos before creating new branch
-title: "[FEAT]"
+title: "[Feat/Fix/Refactor]"
 labels: ''
 assignees: designDefined
 
 ---
 
-# Summary
+## Summary
 - purpose: (feat/fix/refactor)
-- main goal: 
+- main goal:
 
-# Details
+## Details
 
-# Precautions before merging
+## Reference
