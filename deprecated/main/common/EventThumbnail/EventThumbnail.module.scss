@@ -1,0 +1,23 @@
+@use "../../../../styles/sample";
+@use "../../../../styles/flexbox";
+.EventThumbnail {
+  @include sample.itemSmall;
+  @include flexbox.overflowItem;
+
+  position: relative;
+  margin: 0 8px;
+  .info {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+    .title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .writer {
+      font-size: 14px;
+      font-weight: 200;
+    }
+  }
+}

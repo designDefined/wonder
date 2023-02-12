@@ -1,0 +1,22 @@
+@use "../../../../styles/sample";
+@use "../../../../styles/flexbox";
+.BigEventThumbnail {
+  @include sample.itemBig;
+  @include flexbox.overflowItem;
+  position: relative;
+  margin: 0 8px;
+  .info {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    text-align: right;
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .time {
+      font-size: 16px;
+      font-weight: 200;
+    }
+  }
+}

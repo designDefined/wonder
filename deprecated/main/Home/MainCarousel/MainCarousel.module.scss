@@ -1,0 +1,15 @@
+@use "../../../../styles/flexbox";
+.MainCarousel {
+  @include flexbox.overflowContainer;
+}
+
+.MainThumb {
+  @include flexbox.overflowItem;
+  width: 340px;
+  height: 481px;
+  border-radius: 16px;
+  overflow: hidden;
+  .poster {
+    @include flexbox.centered;
+  }
+}

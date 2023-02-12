@@ -1,5 +1,0 @@
-@use "./styles/flexbox";
-.BigCarousel {
-  @include flexbox.overflowContainer;
-  width: 100%;
-}
