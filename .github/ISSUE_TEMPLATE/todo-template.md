@@ -11,6 +11,7 @@ assignees: designDefined
 - __version:__
 - __purpose:__ (feat/fix/refactor)
 - __main goal:__
+- __feature code:__
 - __deadline:__ YY-MM-DD(-HH)
 - __assigned to:__ DesignDefined
 
