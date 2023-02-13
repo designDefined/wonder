@@ -1,6 +1,0 @@
-@use "./styles/flexbox";
-@mixin mainSection {
-  @include flexbox.overflowItem;
-  width: 100vw;
-  min-height: 100vh;
-}
