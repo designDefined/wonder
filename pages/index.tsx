@@ -1,12 +1,13 @@
 import styles from "./Main.module.scss";
 import classNames from "classnames/bind";
+import Header from "../components/common/Header";
 
 const cx = classNames.bind(styles);
 
 const Main = () => {
   return (
     <main className={cx("Main")}>
-      <header className={cx("header")}></header>
+      <Header />
       <article className={cx("bannerCarousel")}>banner image</article>
       <article className={cx("introduction")}>
         <div>왜 원더여야 할까요?</div>
