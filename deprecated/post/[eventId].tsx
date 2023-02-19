@@ -2,7 +2,7 @@ import styles from "./Post.module.scss";
 import { useRouter } from "next/router";
 import { NextPage } from "next";
 import { useEffect, useState } from "react";
-import { IEventSummary } from "../../types/event";
+import { IEventSummary } from "../types/event";
 import { allEventSummaries } from "../mock/events/allEvents";
 import classNames from "classnames/bind";
 

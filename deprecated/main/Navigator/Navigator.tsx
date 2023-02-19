@@ -1,6 +1,6 @@
 import styles from "./Navigator.module.scss";
 import classNames from "classnames/bind";
-import { allTabs, Tab } from "../../../types/tab";
+import { allTabs, Tab } from "../../types/tab";
 import { MouseEventHandler, useCallback } from "react";
 
 const cx = classNames.bind(styles);
