@@ -1,4 +1,4 @@
-import { Event } from "../../entities/Event/Event";
+import { WonderEvent } from "../../entities/WonderEvent/WonderEvent";
 
 export type CreateWonderState = {
   title: string;
@@ -36,9 +36,9 @@ export const createWonderAdaptor = (): CreateWonderState => {
   return { ...initialEntityState, ...initialInternalState };
 };
 
-export const createWonderExtractor: (state: CreateWonderState) => Event = (
-  state,
-) => {
+export const createWonderExtractor: (
+  state: CreateWonderState,
+) => WonderEvent = (state) => {
   return {
     title: state.title,
     summary: state.summary,
@@ -47,5 +47,5 @@ export const createWonderExtractor: (state: CreateWonderState) => Event = (
     time: state.time,
     location: state.location,
     thumbnail: state.thumbnails,
-  } as Event;
+  } as WonderEvent;
 };

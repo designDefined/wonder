@@ -4,12 +4,16 @@ import classNames from "classnames/bind";
 import { useReducer } from "react";
 import {
   createWonderAdaptor,
+  createWonderExtractor,
   CreateWonderState,
 } from "../../states/createWonder/createWonderState";
+import { postCreateWonder } from "../../APIs/wonder/wonder";
+import { useRouter } from "next/router";
 
 const cx = classNames.bind(styles);
 
 const New = () => {
+  const router = useRouter();
   const [state, dispatch] = useReducer<
     (
       state: CreateWonderState,
@@ -63,7 +67,19 @@ const New = () => {
           <div className={cx("toggle")}> 전화번호를 받을래요</div>
           <div className={cx("toggle")}> 이메일을 받을래요</div>
         </section>
-        <button className={cx("upload")} onClick={() => console.log(state)}>
+        <button
+          className={cx("upload")}
+          onClick={() => {
+            postCreateWonder(createWonderExtractor(state)).then(
+              (res) => {
+                if (res.isSuccess) {
+                  router.push(`../event/view/${res.eventId}`);
+                }
+              },
+              (err) => {},
+            );
+          }}
+        >
           업로드
         </button>
       </div>

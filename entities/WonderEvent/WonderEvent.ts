@@ -1,4 +1,4 @@
-import { User } from "../User";
+import { User } from "../User/User";
 import { EventTag } from "./EventTag";
 import { EventTime } from "./EventTime";
 import { EventLocation } from "./EventLocation";
@@ -6,7 +6,7 @@ import { EventReservation } from "./EventReservation";
 import { EventContent } from "./EventContent";
 import { EventThumbnails } from "./EventThumbnails";
 
-export type Event = {
+export type WonderEvent = {
   id: number;
   creator: User;
   title: string;
