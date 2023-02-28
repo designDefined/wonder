@@ -1,6 +1,6 @@
 import create from "zustand";
-import { IUser } from "../../types/user";
-import { ILoadable } from "../../types/status";
+import { IUser } from "../types/user";
+import { ILoadable } from "../types/status";
 
 interface IUserStore extends IUser, ILoadable {
   loadUser: (user: IUser) => void;

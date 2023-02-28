@@ -1,4 +1,4 @@
-import { IEventSummary } from "../../../types/event";
+import { IEventSummary } from "../../types/event";
 
 export const allEventSummaries: IEventSummary[] = [
   {

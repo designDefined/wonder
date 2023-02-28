@@ -1,6 +1,6 @@
 import styles from "./EventThumbnail.module.scss";
 import classNames from "classnames/bind";
-import { IEventSummary } from "../../../../types/event";
+import { IEventSummary } from "../../../types/event";
 import { useRouter } from "next/router";
 
 interface Props {

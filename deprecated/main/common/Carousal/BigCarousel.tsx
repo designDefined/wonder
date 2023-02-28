@@ -1,6 +1,6 @@
 import styles from "./BigCarousel.module.scss";
 import classNames from "classnames/bind";
-import { IEventSummary } from "../../../../types/event";
+import { IEventSummary } from "../../../types/event";
 import BigEventThumbnail from "../EventThumbnail/BigEventThumbnail";
 
 interface Props {
