@@ -10,12 +10,12 @@ export const postCreateWonder = async (
 ): Promise<CreateWonderResponse> => {
   const requestBody = createWonderRequestAdaptor(event);
   try {
-    const response = await fetch(`${baseURL}`, {
+    const response = await fetch(`${baseURL}wonder`, {
       method: "POST",
       body: JSON.stringify(requestBody),
     });
     const data = response.json();
-    return Promise.resolve({ isSuccess: false, eventId: 0 });
+    return Promise.resolve(data);
   } catch (e) {
     return Promise.reject(e);
   }
